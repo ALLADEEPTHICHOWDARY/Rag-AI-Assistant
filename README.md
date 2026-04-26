@@ -32,7 +32,7 @@ streamlit run app.py
 
 ## 📸 Demo
 
-(Add screenshots here after running your app)
+![RAG AI Assistant Demo](RAG.pn.png)
 
 ## 📂 Project Structure
 
