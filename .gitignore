@@ -19,3 +19,8 @@ Thumbs.db
 
 # Streamlit cache
 .streamlit/
+
+memory_store.json
+traces/*.json
+__pycache__/
+*.pyc
