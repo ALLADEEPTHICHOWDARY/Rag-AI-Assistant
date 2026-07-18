@@ -121,6 +121,9 @@ requirements.txt
 
 <img width="1842" height="957" alt="Screenshot 2026-07-12 190748" src="https://github.com/user-attachments/assets/ab0e18f5-f641-4421-a32b-59bcba7c2088" />
 
+<img width="1892" height="1015" alt="Screenshot 2026-07-12 190841" src="https://github.com/user-attachments/assets/487772ea-b899-4bf2-9486-cc18514b862d" />
+
+
 
 ## 🔥 Future Improvements
 
