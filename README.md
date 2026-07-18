@@ -117,6 +117,9 @@ tests/                        # pytest coverage
 traces/                       # JSON trace of every run (gitignored)
 requirements.txt
 ```
+## 📸 Demo
+
+![Agent reasoning trace showing document→web fallback](Screenshot 2026-07-12 190748.png)
 
 ## 🔥 Future Improvements
 
