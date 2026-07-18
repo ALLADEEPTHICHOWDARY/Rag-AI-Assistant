@@ -119,7 +119,8 @@ requirements.txt
 ```
 ## 📸 Demo
 
-![Agent reasoning trace showing document→web fallback](Screenshot 2026-07-12 190748.png)
+<img width="1842" height="957" alt="Screenshot 2026-07-12 190748" src="https://github.com/user-attachments/assets/ab0e18f5-f641-4421-a32b-59bcba7c2088" />
+
 
 ## 🔥 Future Improvements
 
