@@ -80,7 +80,20 @@ version adds:
 - `ddgs` (web search) + `requests` (Wikipedia fallback)
 - pytest
 
-## ▶️ How to Run
+## ☁️ Deployment
+
+Containerized with Docker and deployed to **Azure Container Apps**
+(serverless containers, scales to zero when idle). CI/CD via GitHub Actions
+rebuilds and redeploys automatically on every push to `main`.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the full setup.
+
+```bash
+docker build -t rag-ai-assistant .
+docker run -p 8501:8501 rag-ai-assistant
+```
+
+## ▶️ How to Run (without Docker)
 
 ```bash
 pip install -r requirements.txt
@@ -128,7 +141,6 @@ requirements.txt
 ## 🔥 Future Improvements
 
 - Multi-file upload
-- Deployment (AWS / HuggingFace Spaces)
 - Swap FLAN-T5 for Groq/Llama by default for stronger answer synthesis
 - LLM-based tool routing (see `agent/router.py`'s `choose_tool_llm`) as
   an alternative to the current rule-based router
