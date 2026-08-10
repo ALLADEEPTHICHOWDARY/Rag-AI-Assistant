@@ -1,0 +1,15 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.streamlit/
+tests/
+traces/*.json
+memory_store.json
+faiss_index/
+*.md
+Screenshot*.png
+*.pn.png
